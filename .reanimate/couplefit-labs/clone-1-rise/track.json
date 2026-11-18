@@ -1,0 +1,541 @@
+{
+  "selectors": [
+    "#hHero"
+  ],
+  "playbackRate": 1,
+  "note": "t in ms of reference time, 0 = trigger; negative samples are before it",
+  "samples": [
+    {
+      "t": 0,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 34.6,
+          "y": 127.71,
+          "w": 342.8,
+          "h": 216.22,
+          "opacity": 0,
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 26)"
+        }
+      }
+    },
+    {
+      "t": 54.8,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 34.6,
+          "y": 127.71,
+          "w": 342.8,
+          "h": 216.22,
+          "opacity": 0,
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 26)"
+        }
+      }
+    },
+    {
+      "t": 79.8,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 34.6,
+          "y": 127.71,
+          "w": 342.8,
+          "h": 216.22,
+          "opacity": 0,
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 26)"
+        }
+      }
+    },
+    {
+      "t": 109,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 34.44,
+          "y": 127.41,
+          "w": 343.12,
+          "h": 216.43,
+          "opacity": 0,
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 26)"
+        }
+      }
+    },
+    {
+      "t": 170.1,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 33.15,
+          "y": 125.02,
+          "w": 345.7,
+          "h": 218.05,
+          "opacity": 0,
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 26)"
+        }
+      }
+    },
+    {
+      "t": 233.5,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 30.23,
+          "y": 118.18,
+          "w": 351.54,
+          "h": 221.74,
+          "opacity": 0.05,
+          "transform": "matrix(0.954896, 0, 0, 0.954896, 0, 23.4541)"
+        }
+      }
+    },
+    {
+      "t": 299.5,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 26.48,
+          "y": 107.09,
+          "w": 359.03,
+          "h": 226.46,
+          "opacity": 0.21,
+          "transform": "matrix(0.969078, 0, 0, 0.969078, 0, 16.0793)"
+        }
+      }
+    },
+    {
+      "t": 362.9,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 23.5,
+          "y": 97.71,
+          "w": 364.99,
+          "h": 230.22,
+          "opacity": 0.424,
+          "transform": "matrix(0.98221, 0, 0, 0.98221, 0, 9.25097)"
+        }
+      }
+    },
+    {
+      "t": 438.1,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 21.64,
+          "y": 91.61,
+          "w": 368.72,
+          "h": 232.57,
+          "opacity": 0.609,
+          "transform": "matrix(0.991218, 0, 0, 0.991218, 0, 4.56639)"
+        }
+      }
+    },
+    {
+      "t": 501.7,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20.67,
+          "y": 88.31,
+          "w": 370.65,
+          "h": 233.79,
+          "opacity": 0.745,
+          "transform": "matrix(0.996377, 0, 0, 0.996377, 0, 1.8837)"
+        }
+      }
+    },
+    {
+      "t": 558,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20.2,
+          "y": 86.68,
+          "w": 371.6,
+          "h": 234.39,
+          "opacity": 0.842,
+          "transform": "matrix(0.998929, 0, 0, 0.998929, 0, 0.556945)"
+        }
+      }
+    },
+    {
+      "t": 616.9,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20.03,
+          "y": 86.12,
+          "w": 371.93,
+          "h": 234.6,
+          "opacity": 0.895,
+          "transform": "matrix(0.999814, 0, 0, 0.999814, 0, 0.0966379)"
+        }
+      }
+    },
+    {
+      "t": 684.2,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 19.95,
+          "y": 85.84,
+          "w": 372.09,
+          "h": 234.7,
+          "opacity": 0.945,
+          "transform": "matrix(1.00025, 0, 0, 1.00025, 0, -0.132267)"
+        }
+      }
+    },
+    {
+      "t": 754.4,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 19.94,
+          "y": 85.81,
+          "w": 372.11,
+          "h": 234.71,
+          "opacity": 0.977,
+          "transform": "matrix(1.00031, 0, 0, 1.00031, 0, -0.158882)"
+        }
+      }
+    },
+    {
+      "t": 813.6,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 19.96,
+          "y": 85.85,
+          "w": 372.09,
+          "h": 234.7,
+          "opacity": 0.994,
+          "transform": "matrix(1.00023, 0, 0, 1.00023, 0, -0.122156)"
+        }
+      }
+    },
+    {
+      "t": 865.1,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 19.97,
+          "y": 85.89,
+          "w": 372.06,
+          "h": 234.68,
+          "opacity": 1,
+          "transform": "matrix(1.00017, 0, 0, 1.00017, 0, -0.0859175)"
+        }
+      }
+    },
+    {
+      "t": 934.9,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1042.7,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1138.7,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1207,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1270.9,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1312.5,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1322.8,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1340,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1357,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1373.7,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1389.6,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1438.2,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1547.7,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1592.9,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1639.4,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1684.2,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1726.7,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1804.5,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1851.5,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1859.8,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 1971.3,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "t": 2044.6,
+      "scrollY": 0,
+      "els": {
+        "#hHero": {
+          "x": 20,
+          "y": 86,
+          "w": 372,
+          "h": 234.64,
+          "opacity": 1,
+          "transform": "none"
+        }
+      }
+    }
+  ]
+}

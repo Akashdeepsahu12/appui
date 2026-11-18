@@ -1,0 +1,1155 @@
+{
+  "url": "http://localhost:5173/couplefit/#/recharge",
+  "title": "CoupleFit",
+  "viewport": [
+    412,
+    892
+  ],
+  "scrollY": 0,
+  "devicePixelRatio": 1,
+  "libs": [
+    "css scroll-driven animations"
+  ],
+  "fonts": [],
+  "canvases": [],
+  "target": null,
+  "animations": [
+    {
+      "kind": "CSSAnimation",
+      "name": "glow",
+      "target": "div.bgfx",
+      "timing": {
+        "delay": 0,
+        "direction": "alternate",
+        "duration": 12000,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "none",
+        "iterationStart": 0,
+        "iterations": null
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease-in-out",
+          "translate": "-50%",
+          "scale": "none"
+        },
+        {
+          "offset": 1,
+          "easing": "ease-in-out",
+          "translate": "-46% 4%",
+          "scale": "1.1"
+        }
+      ],
+      "playState": "running",
+      "currentTime": 3933.128000004505,
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "kind": "CSSAnimation",
+      "name": "orbit",
+      "target": "div.bgfx",
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 24000,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "none",
+        "iterationStart": 0,
+        "iterations": null
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "transformOrigin": "20% 20%",
+          "rotate": "0deg"
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "transformOrigin": "20% 20%",
+          "rotate": "360deg"
+        }
+      ],
+      "playState": "running",
+      "currentTime": 3933.128000004505,
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "kind": "CSSAnimation",
+      "name": "out",
+      "target": "div.splash",
+      "timing": {
+        "delay": 1300,
+        "direction": "normal",
+        "duration": 600,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "forwards",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "visibility": "visible",
+          "opacity": "1",
+          "scale": "none"
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "visibility": "hidden",
+          "opacity": "0",
+          "scale": "1.3"
+        }
+      ],
+      "playState": "finished",
+      "currentTime": 1900,
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "kind": "CSSAnimation",
+      "name": "pop",
+      "target": "div.logo",
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 900,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "cubic-bezier(0.3, 1.6, 0.5, 1)",
+          "filter": "blur(12px)",
+          "opacity": "0",
+          "scale": "0.3"
+        },
+        {
+          "offset": 1,
+          "easing": "cubic-bezier(0.3, 1.6, 0.5, 1)",
+          "filter": "none",
+          "opacity": "1",
+          "scale": "none"
+        }
+      ],
+      "playState": "finished",
+      "currentTime": 900,
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "kind": "CSSAnimation",
+      "name": "scr",
+      "target": "section.screen.rc.in",
+      "timing": {
+        "delay": 0,
+        "direction": "normal",
+        "duration": 350,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "ease",
+          "opacity": "0",
+          "scale": "0.97"
+        },
+        {
+          "offset": 1,
+          "easing": "ease",
+          "opacity": "1",
+          "scale": "none"
+        }
+      ],
+      "playState": "finished",
+      "currentTime": 350,
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "glow",
+      "css": "@keyframes glow { \n  100% { scale: 1.1; translate: -46% 4%; }\n}"
+    },
+    {
+      "name": "orbit",
+      "css": "@keyframes orbit { \n  0% { rotate: 0deg; transform-origin: 20% 20%; }\n  100% { rotate: 360deg; transform-origin: 20% 20%; }\n}"
+    },
+    {
+      "name": "out",
+      "css": "@keyframes out { \n  100% { opacity: 0; visibility: hidden; scale: 1.3; }\n}"
+    },
+    {
+      "name": "pop",
+      "css": "@keyframes pop { \n  0% { scale: 0.3; opacity: 0; filter: blur(12px); }\n}"
+    },
+    {
+      "name": "scr",
+      "css": "@keyframes scr { \n  0% { opacity: 0; scale: 0.97; }\n}"
+    },
+    {
+      "name": "up",
+      "css": "@keyframes up { \n  0% { opacity: 0; translate: 0px 16%; }\n}"
+    },
+    {
+      "name": "breathe",
+      "css": "@keyframes breathe { \n  50% { transform: scale(1.12) translateY(-2%); }\n}"
+    },
+    {
+      "name": "drift",
+      "css": "@keyframes drift { \n  50% { translate: -30% 12%; scale: 1.25; }\n}"
+    },
+    {
+      "name": "ping",
+      "css": "@keyframes ping { \n  0% { box-shadow: rgba(231, 254, 85, 0.6) 0px 0px 0px 0px; }\n  100% { box-shadow: rgba(231, 254, 85, 0) 0px 0px 0px 10px; }\n}"
+    },
+    {
+      "name": "blink",
+      "css": "@keyframes blink { \n  50% { opacity: 0.25; scale: 0.6; }\n}"
+    },
+    {
+      "name": "spin",
+      "css": "@keyframes spin { \n  100% { rotate: 1turn; }\n}"
+    },
+    {
+      "name": "pingw",
+      "css": "@keyframes pingw { \n  0% { box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 0px; }\n  100% { box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px 22px; }\n}"
+    },
+    {
+      "name": "wb",
+      "css": "@keyframes wb { \n  0% { height: 4px; }\n  100% { height: 20px; }\n}"
+    },
+    {
+      "name": "orbs",
+      "css": "@keyframes orbs { \n  25% { --o1x: 72%; --o1y: 14%; --o2x: 30%; --o2y: 52%; --o3x: 76%; --o3y: 80%; }\n  50% { --o1x: 80%; --o1y: 4%; --o2x: 12%; --o2y: 40%; --o3x: 60%; --o3y: 92%; }\n  75% { --o1x: 34%; --o1y: 16%; --o2x: 66%; --o2y: 58%; --o3x: 18%; --o3y: 78%; }\n}"
+    },
+    {
+      "name": "ctaglow",
+      "css": "@keyframes ctaglow { \n  100% { box-shadow: rgba(215, 242, 90, 0.35) 0px 0px 34px 6px; }\n}"
+    }
+  ],
+  "nodes": [
+    {
+      "el": "body",
+      "rect": [
+        0,
+        0,
+        412,
+        892
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "background-color": "rgb(10, 10, 10)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "overflow": "hidden",
+        "display": "grid"
+      }
+    },
+    {
+      "el": "div#phone.phone",
+      "rect": [
+        0,
+        0,
+        412,
+        892
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "background-color": "rgb(18, 18, 18)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "overflow": "clip",
+        "position": "relative",
+        "display": "block"
+      }
+    },
+    {
+      "el": "div.bgfx",
+      "rect": [
+        0,
+        0,
+        412,
+        892
+      ],
+      "text": "",
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "overflow": "hidden",
+        "position": "absolute",
+        "display": "block"
+      }
+    },
+    {
+      "el": "div.splash",
+      "rect": [
+        -62,
+        -134,
+        536,
+        1160
+      ],
+      "style": {
+        "opacity": "0",
+        "animation": "0.6s 1.3s forwards out",
+        "color": "rgb(255, 255, 255)",
+        "background-color": "rgb(18, 18, 18)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "position": "absolute",
+        "display": "grid"
+      }
+    },
+    {
+      "el": "div.logo",
+      "rect": [
+        144,
+        384,
+        125,
+        125
+      ],
+      "style": {
+        "animation": "0.9s cubic-bezier(0.3, 1.6, 0.5, 1) both pop",
+        "color": "rgb(34, 34, 34)",
+        "background-color": "rgb(236, 233, 224)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "24px",
+        "font-weight": "500",
+        "line-height": "30px",
+        "letter-spacing": "-0.48px",
+        "border-radius": "26px",
+        "filter": "blur(0px)",
+        "display": "grid"
+      }
+    },
+    {
+      "el": "b",
+      "rect": [
+        192,
+        458,
+        28,
+        39
+      ],
+      "text": "fit",
+      "style": {
+        "color": "rgb(34, 34, 34)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "24px",
+        "font-weight": "700",
+        "line-height": "30px",
+        "letter-spacing": "-0.48px",
+        "display": "block"
+      }
+    },
+    {
+      "el": "main#view",
+      "rect": [
+        0,
+        0,
+        412,
+        892
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "position": "absolute",
+        "display": "block"
+      }
+    },
+    {
+      "el": "section.screen.rc.in",
+      "rect": [
+        0,
+        0,
+        412,
+        892
+      ],
+      "style": {
+        "animation": "0.35s both scr",
+        "color": "rgb(255, 255, 255)",
+        "background-image": "radial-gradient(120% 55% at 75% -5%, rgb(122, 82, 48), rgb(43, 32, 24) 48%, rgb(20, 18, 16) 82%)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "position": "absolute",
+        "display": "flex",
+        "gap": "14px",
+        "padding": "16px 20px 130px"
+      }
+    },
+    {
+      "el": "p.rise.over",
+      "rect": [
+        20,
+        16,
+        372,
+        27
+      ],
+      "text": "Step 1 of 1",
+      "style": {
+        "transition": "opacity 0.7s, filter 0.7s, transform 0.742s linear(0 0%, 0.013 2.08333%, 0.0473 4.16667%, 0.0967 6.25%, 0.1562 8.33333%, 0.2218 10.4167%, 0.2903 12.5%, 0.3593 14.5833%, 0.427 16.6667%, 0.4919 18.75%, 0.5533 20.8333%, 0.6104 22.9167%, 0.6629 25%, 0.7107 27.0833%, 0.7537 29.1667%, 0.792 31.25%, 0.826 33.3333%, 0.8558 35.4167%, 0.8817 37.5%, 0.904 39.5833%, 0.9232 41.6667%, 0.9395 43.75%, 0.9532 45.8333%, 0.9646 47.9167%, 0.9741 50%, 0.9818 52.0833%, 0.9881 54.1667%, 0.9931 56.25%, 0.997 58.3333%, 1 60.4167%, 1.0022 62.5%, 1.0039 64.5833%, 1.005 66.6667%, 1.0057 68.75%, 1.0061 70.8333%, 1.0063 72.9167%, 1.0062 75%, 1.006 77.0833%, 1.0058 79.1667%, 1.0054 81.25%, 1.005 83.3333%, 1.0046 85.4167%, 1.0041 87.5%, 1.0037 89.5833%, 1.0033 91.6667%, 1.0029 93.75%, 1.0025 95.8333%, 1.0022 97.9167%, 1 100%)",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "12px",
+        "font-weight": "400",
+        "line-height": "15px",
+        "letter-spacing": "1px",
+        "display": "block",
+        "padding": "12px 0px 0px"
+      }
+    },
+    {
+      "el": "h1.rise",
+      "rect": [
+        20,
+        61,
+        372,
+        70
+      ],
+      "text": "Personalize your daily recharge",
+      "style": {
+        "transition": "opacity 0.7s 0.07s, filter 0.7s 0.07s, transform 0.742s linear(0 0%, 0.013 2.08333%, 0.0473 4.16667%, 0.0967 6.25%, 0.1562 8.33333%, 0.2218 10.4167%, 0.2903 12.5%, 0.3593 14.5833%, 0.427 16.6667%, 0.4919 18.75%, 0.5533 20.8333%, 0.6104 22.9167%, 0.6629 25%, 0.7107 27.0833%, 0.7537 29.1667%, 0.792 31.25%, 0.826 33.3333%, 0.8558 35.4167%, 0.8817 37.5%, 0.904 39.5833%, 0.9232 41.6667%, 0.9395 43.75%, 0.9532 45.8333%, 0.9646 47.9167%, 0.9741 50%, 0.9818 52.0833%, 0.9881 54.1667%, 0.9931 56.25%, 0.997 58.3333%, 1 60.4167%, 1.0022 62.5%, 1.0039 64.5833%, 1.005 66.6667%, 1.0057 68.75%, 1.0061 70.8333%, 1.0063 72.9167%, 1.0062 75%, 1.006 77.0833%, 1.0058 79.1667%, 1.0054 81.25%, 1.005 83.3333%, 1.0046 85.4167%, 1.0041 87.5%, 1.0037 89.5833%, 1.0033 91.6667%, 1.0029 93.75%, 1.0025 95.8333%, 1.0022 97.9167%, 1 100%) 0.07s",
+        "color": "rgb(236, 233, 224)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "28px",
+        "font-weight": "300",
+        "line-height": "35px",
+        "display": "block"
+      }
+    },
+    {
+      "el": "p.rise.muted",
+      "rect": [
+        20,
+        145,
+        372,
+        38
+      ],
+      "text": "Tell us what you want to improve so we can tailor your recov",
+      "style": {
+        "opacity": "0.75",
+        "transition": "opacity 0.7s 0.14s, filter 0.7s 0.14s, transform 0.742s linear(0 0%, 0.013 2.08333%, 0.0473 4.16667%, 0.0967 6.25%, 0.1562 8.33333%, 0.2218 10.4167%, 0.2903 12.5%, 0.3593 14.5833%, 0.427 16.6667%, 0.4919 18.75%, 0.5533 20.8333%, 0.6104 22.9167%, 0.6629 25%, 0.7107 27.0833%, 0.7537 29.1667%, 0.792 31.25%, 0.826 33.3333%, 0.8558 35.4167%, 0.8817 37.5%, 0.904 39.5833%, 0.9232 41.6667%, 0.9395 43.75%, 0.9532 45.8333%, 0.9646 47.9167%, 0.9741 50%, 0.9818 52.0833%, 0.9881 54.1667%, 0.9931 56.25%, 0.997 58.3333%, 1 60.4167%, 1.0022 62.5%, 1.0039 64.5833%, 1.005 66.6667%, 1.0057 68.75%, 1.0061 70.8333%, 1.0063 72.9167%, 1.0062 75%, 1.006 77.0833%, 1.0058 79.1667%, 1.0054 81.25%, 1.005 83.3333%, 1.0046 85.4167%, 1.0041 87.5%, 1.0037 89.5833%, 1.0033 91.6667%, 1.0029 93.75%, 1.0025 95.8333%, 1.0022 97.9167%, 1 100%) 0.14s",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "display": "block"
+      }
+    },
+    {
+      "el": "div.rise",
+      "rect": [
+        20,
+        205,
+        372,
+        300
+      ],
+      "style": {
+        "transition": "opacity 0.7s 0.21s, filter 0.7s 0.21s, transform 0.742s linear(0 0%, 0.013 2.08333%, 0.0473 4.16667%, 0.0967 6.25%, 0.1562 8.33333%, 0.2218 10.4167%, 0.2903 12.5%, 0.3593 14.5833%, 0.427 16.6667%, 0.4919 18.75%, 0.5533 20.8333%, 0.6104 22.9167%, 0.6629 25%, 0.7107 27.0833%, 0.7537 29.1667%, 0.792 31.25%, 0.826 33.3333%, 0.8558 35.4167%, 0.8817 37.5%, 0.904 39.5833%, 0.9232 41.6667%, 0.9395 43.75%, 0.9532 45.8333%, 0.9646 47.9167%, 0.9741 50%, 0.9818 52.0833%, 0.9881 54.1667%, 0.9931 56.25%, 0.997 58.3333%, 1 60.4167%, 1.0022 62.5%, 1.0039 64.5833%, 1.005 66.6667%, 1.0057 68.75%, 1.0061 70.8333%, 1.0063 72.9167%, 1.0062 75%, 1.006 77.0833%, 1.0058 79.1667%, 1.0054 81.25%, 1.005 83.3333%, 1.0046 85.4167%, 1.0041 87.5%, 1.0037 89.5833%, 1.0033 91.6667%, 1.0029 93.75%, 1.0025 95.8333%, 1.0022 97.9167%, 1 100%) 0.21s",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "display": "flex",
+        "gap": "10px"
+      }
+    },
+    {
+      "el": "button.opt",
+      "rect": [
+        20,
+        205,
+        372,
+        52
+      ],
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "background-image": "linear-gradient(rgba(255, 255, 255, 0.09), rgba(0, 0, 0, 0) 42%), linear-gradient(rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.18)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03))",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "border-radius": "18px",
+        "box-shadow": "rgba(255, 255, 255, 0.12) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.35) 0px 12px 32px 0px",
+        "backdrop-filter": "blur(18px) saturate(1.5)",
+        "position": "relative",
+        "display": "flex",
+        "gap": "12px",
+        "padding": "16px"
+      }
+    },
+    {
+      "el": "b",
+      "rect": [
+        36,
+        221,
+        20,
+        20
+      ],
+      "text": "",
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "700",
+        "line-height": "18.75px",
+        "border-radius": "50%",
+        "display": "grid"
+      }
+    },
+    {
+      "el": "button.opt",
+      "rect": [
+        20,
+        267,
+        372,
+        52
+      ],
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "background-image": "linear-gradient(rgba(255, 255, 255, 0.09), rgba(0, 0, 0, 0) 42%), linear-gradient(rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.18)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03))",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "border-radius": "18px",
+        "box-shadow": "rgba(255, 255, 255, 0.12) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.35) 0px 12px 32px 0px",
+        "backdrop-filter": "blur(18px) saturate(1.5)",
+        "position": "relative",
+        "display": "flex",
+        "gap": "12px",
+        "padding": "16px"
+      }
+    },
+    {
+      "el": "b",
+      "rect": [
+        36,
+        283,
+        20,
+        20
+      ],
+      "text": "",
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "700",
+        "line-height": "18.75px",
+        "border-radius": "50%",
+        "display": "grid"
+      }
+    },
+    {
+      "el": "button.opt",
+      "rect": [
+        20,
+        329,
+        372,
+        52
+      ],
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "background-image": "linear-gradient(rgba(255, 255, 255, 0.09), rgba(0, 0, 0, 0) 42%), linear-gradient(rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.18)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03))",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "border-radius": "18px",
+        "box-shadow": "rgba(255, 255, 255, 0.12) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.35) 0px 12px 32px 0px",
+        "backdrop-filter": "blur(18px) saturate(1.5)",
+        "position": "relative",
+        "display": "flex",
+        "gap": "12px",
+        "padding": "16px"
+      }
+    },
+    {
+      "el": "b",
+      "rect": [
+        36,
+        345,
+        20,
+        20
+      ],
+      "text": "",
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "700",
+        "line-height": "18.75px",
+        "border-radius": "50%",
+        "display": "grid"
+      }
+    },
+    {
+      "el": "button.opt",
+      "rect": [
+        20,
+        391,
+        372,
+        52
+      ],
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "background-image": "linear-gradient(rgba(255, 255, 255, 0.09), rgba(0, 0, 0, 0) 42%), linear-gradient(rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.18)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03))",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "border-radius": "18px",
+        "box-shadow": "rgba(255, 255, 255, 0.12) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.35) 0px 12px 32px 0px",
+        "backdrop-filter": "blur(18px) saturate(1.5)",
+        "position": "relative",
+        "display": "flex",
+        "gap": "12px",
+        "padding": "16px"
+      }
+    },
+    {
+      "el": "b",
+      "rect": [
+        36,
+        407,
+        20,
+        20
+      ],
+      "text": "",
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "700",
+        "line-height": "18.75px",
+        "border-radius": "50%",
+        "display": "grid"
+      }
+    },
+    {
+      "el": "button.opt",
+      "rect": [
+        20,
+        453,
+        372,
+        52
+      ],
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "background-image": "linear-gradient(rgba(255, 255, 255, 0.09), rgba(0, 0, 0, 0) 42%), linear-gradient(rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.18)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03))",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "border-radius": "18px",
+        "box-shadow": "rgba(255, 255, 255, 0.12) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.35) 0px 12px 32px 0px",
+        "backdrop-filter": "blur(18px) saturate(1.5)",
+        "position": "relative",
+        "display": "flex",
+        "gap": "12px",
+        "padding": "16px"
+      }
+    },
+    {
+      "el": "b",
+      "rect": [
+        36,
+        469,
+        20,
+        20
+      ],
+      "text": "",
+      "style": {
+        "transition": "background 0.3s, border-color 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "700",
+        "line-height": "18.75px",
+        "border-radius": "50%",
+        "display": "grid"
+      }
+    },
+    {
+      "el": "button#rcGo.wide.rise",
+      "rect": [
+        20,
+        711,
+        372,
+        51
+      ],
+      "text": "Continue",
+      "style": {
+        "opacity": "0.35",
+        "transition": "opacity 0.7s 0.28s, filter 0.7s 0.28s, transform 0.742s linear(0 0%, 0.013 2.08333%, 0.0473 4.16667%, 0.0967 6.25%, 0.1562 8.33333%, 0.2218 10.4167%, 0.2903 12.5%, 0.3593 14.5833%, 0.427 16.6667%, 0.4919 18.75%, 0.5533 20.8333%, 0.6104 22.9167%, 0.6629 25%, 0.7107 27.0833%, 0.7537 29.1667%, 0.792 31.25%, 0.826 33.3333%, 0.8558 35.4167%, 0.8817 37.5%, 0.904 39.5833%, 0.9232 41.6667%, 0.9395 43.75%, 0.9532 45.8333%, 0.9646 47.9167%, 0.9741 50%, 0.9818 52.0833%, 0.9881 54.1667%, 0.9931 56.25%, 0.997 58.3333%, 1 60.4167%, 1.0022 62.5%, 1.0039 64.5833%, 1.005 66.6667%, 1.0057 68.75%, 1.0061 70.8333%, 1.0063 72.9167%, 1.0062 75%, 1.006 77.0833%, 1.0058 79.1667%, 1.0054 81.25%, 1.005 83.3333%, 1.0046 85.4167%, 1.0041 87.5%, 1.0037 89.5833%, 1.0033 91.6667%, 1.0029 93.75%, 1.0025 95.8333%, 1.0022 97.9167%, 1 100%) 0.28s",
+        "color": "rgb(17, 17, 17)",
+        "background-color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "border-radius": "99px",
+        "display": "block",
+        "padding": "16px"
+      }
+    },
+    {
+      "el": "nav#dock.dock.lens",
+      "rect": [
+        30,
+        810,
+        352,
+        68
+      ],
+      "style": {
+        "transition": "opacity 0.3s, translate 0.4s cubic-bezier(0.3, 1.6, 0.5, 1)",
+        "color": "rgb(255, 255, 255)",
+        "background-image": "linear-gradient(rgba(255, 255, 255, 0.09), rgba(0, 0, 0, 0) 42%), linear-gradient(rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.18)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03))",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "border-radius": "99px",
+        "box-shadow": "rgba(255, 255, 255, 0.12) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.35) 0px 12px 32px 0px",
+        "backdrop-filter": "blur(18px) saturate(1.5) url(\"#lg0\")",
+        "position": "absolute",
+        "display": "flex",
+        "padding": "6px"
+      }
+    },
+    {
+      "el": "span.hl",
+      "rect": [
+        240,
+        816,
+        68,
+        56
+      ],
+      "text": "",
+      "style": {
+        "transform": "matrix(1, 0, 0, 1, 204, 0)",
+        "transition": "transform 0.651s linear(0 0%, 0.0167 2.08333%, 0.0606 4.16667%, 0.1235 6.25%, 0.1986 8.33333%, 0.2805 10.4167%, 0.3648 12.5%, 0.4484 14.5833%, 0.5286 16.6667%, 0.6038 18.75%, 0.6728 20.8333%, 0.735 22.9167%, 0.7901 25%, 0.8381 27.0833%, 0.8793 29.1667%, 0.914 31.25%, 0.9428 33.3333%, 0.9662 35.4167%, 0.9848 37.5%, 0.9993 39.5833%, 1.0101 41.6667%, 1.018 43.75%, 1.0233 45.8333%, 1.0265 47.9167%, 1.0281 50%, 1.0283 52.0833%, 1.0277 54.1667%, 1.0263 56.25%, 1.0244 58.3333%, 1.0222 60.4167%, 1.0198 62.5%, 1.0174 64.5833%, 1.0151 66.6667%, 1.0128 68.75%, 1.0107 70.8333%, 1.0088 72.9167%, 1.0071 75%, 1.0056 77.0833%, 1.0043 79.1667%, 1.0032 81.25%, 1.0022 83.3333%, 1.0014 85.4167%, 1.0008 87.5%, 1.0003 89.5833%, 0.9999 91.6667%, 0.9997 93.75%, 0.9994 95.8333%, 0.9993 97.9167%, 1 100%), width 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "background-color": "rgba(255, 255, 255, 0.1)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "border-radius": "99px",
+        "position": "absolute",
+        "display": "block"
+      }
+    },
+    {
+      "el": "button",
+      "rect": [
+        36,
+        816,
+        68,
+        56
+      ],
+      "style": {
+        "opacity": "0.5",
+        "transition": "opacity 0.3s, transform 0.3s cubic-bezier(0.3, 1.6, 0.5, 1)",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "position": "relative",
+        "display": "flex",
+        "gap": "3px"
+      }
+    },
+    {
+      "el": "svg",
+      "rect": [
+        60,
+        826,
+        20,
+        20
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "overflow": "hidden",
+        "display": "block"
+      }
+    },
+    {
+      "el": "path",
+      "rect": [
+        62,
+        829,
+        17,
+        14
+      ],
+      "text": "",
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "display": "inline"
+      }
+    },
+    {
+      "el": "button",
+      "rect": [
+        104,
+        816,
+        68,
+        56
+      ],
+      "style": {
+        "opacity": "0.5",
+        "transition": "opacity 0.3s, transform 0.3s cubic-bezier(0.3, 1.6, 0.5, 1)",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "position": "relative",
+        "display": "flex",
+        "gap": "3px"
+      }
+    },
+    {
+      "el": "svg",
+      "rect": [
+        128,
+        826,
+        20,
+        20
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "overflow": "hidden",
+        "display": "block"
+      }
+    },
+    {
+      "el": "path",
+      "rect": [
+        130,
+        829,
+        15,
+        15
+      ],
+      "text": "",
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "display": "inline"
+      }
+    },
+    {
+      "el": "button",
+      "rect": [
+        172,
+        816,
+        68,
+        56
+      ],
+      "style": {
+        "opacity": "0.5",
+        "transition": "opacity 0.3s, transform 0.3s cubic-bezier(0.3, 1.6, 0.5, 1)",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "position": "relative",
+        "display": "flex",
+        "gap": "3px"
+      }
+    },
+    {
+      "el": "svg",
+      "rect": [
+        196,
+        826,
+        20,
+        20
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "overflow": "hidden",
+        "display": "block"
+      }
+    },
+    {
+      "el": "path",
+      "rect": [
+        198,
+        831,
+        17,
+        11
+      ],
+      "text": "",
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "display": "inline"
+      }
+    },
+    {
+      "el": "button",
+      "rect": [
+        240,
+        816,
+        68,
+        56
+      ],
+      "style": {
+        "transition": "opacity 0.3s, transform 0.3s cubic-bezier(0.3, 1.6, 0.5, 1)",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "position": "relative",
+        "display": "flex",
+        "gap": "3px"
+      }
+    },
+    {
+      "el": "svg",
+      "rect": [
+        264,
+        826,
+        20,
+        20
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "overflow": "hidden",
+        "display": "block"
+      }
+    },
+    {
+      "el": "path",
+      "rect": [
+        266,
+        828,
+        17,
+        17
+      ],
+      "text": "",
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "display": "inline"
+      }
+    },
+    {
+      "el": "button",
+      "rect": [
+        308,
+        816,
+        68,
+        56
+      ],
+      "style": {
+        "opacity": "0.5",
+        "transition": "opacity 0.3s, transform 0.3s cubic-bezier(0.3, 1.6, 0.5, 1)",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "position": "relative",
+        "display": "flex",
+        "gap": "3px"
+      }
+    },
+    {
+      "el": "svg",
+      "rect": [
+        332,
+        826,
+        20,
+        20
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "overflow": "hidden",
+        "display": "block"
+      }
+    },
+    {
+      "el": "path",
+      "rect": [
+        334,
+        829,
+        17,
+        15
+      ],
+      "text": "",
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "10px",
+        "font-weight": "400",
+        "line-height": "12.5px",
+        "display": "inline"
+      }
+    },
+    {
+      "el": "div#toast.toast.lens",
+      "rect": [
+        179,
+        -41,
+        54,
+        32
+      ],
+      "style": {
+        "transition": "translate 0.5s cubic-bezier(0.3, 1.6, 0.5, 1)",
+        "color": "rgb(255, 255, 255)",
+        "background-color": "rgba(20, 22, 28, 0.7)",
+        "background-image": "linear-gradient(rgba(255, 255, 255, 0.09), rgba(0, 0, 0, 0) 42%), linear-gradient(rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.18)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03))",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "14px",
+        "font-weight": "400",
+        "line-height": "17.5px",
+        "border-radius": "99px",
+        "box-shadow": "rgba(255, 255, 255, 0.12) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.35) 0px 12px 32px 0px",
+        "backdrop-filter": "blur(18px) saturate(1.5) url(\"#lg1\")",
+        "position": "absolute",
+        "display": "flex",
+        "gap": "10px",
+        "padding": "12px 18px"
+      }
+    },
+    {
+      "el": "span.dot",
+      "rect": [
+        197,
+        -29,
+        8,
+        8
+      ],
+      "text": "",
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "background-color": "rgb(231, 254, 85)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "14px",
+        "font-weight": "400",
+        "line-height": "17.5px",
+        "border-radius": "50%",
+        "display": "block"
+      }
+    },
+    {
+      "el": "div#scrim.scrim",
+      "rect": [
+        0,
+        0,
+        412,
+        892
+      ],
+      "text": "",
+      "style": {
+        "opacity": "0",
+        "transition": "opacity 0.3s",
+        "color": "rgb(255, 255, 255)",
+        "background-color": "rgba(0, 0, 0, 0.733)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "position": "absolute",
+        "display": "block"
+      }
+    },
+    {
+      "el": "section#sheet.sheet",
+      "rect": [
+        0,
+        892,
+        412,
+        0
+      ],
+      "text": "",
+      "style": {
+        "transition": "translate 0.55s cubic-bezier(0.2, 1.1, 0.3, 1)",
+        "color": "rgb(255, 255, 255)",
+        "font-family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "font-size": "15px",
+        "font-weight": "400",
+        "line-height": "18.75px",
+        "border-radius": "40px 40px 0px 0px",
+        "overflow": "hidden",
+        "position": "absolute",
+        "display": "block"
+      }
+    }
+  ]
+}
